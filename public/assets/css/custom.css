@@ -1,0 +1,127 @@
+.nav-item >.active {
+    border-bottom: solid red !important;
+    color: red !important;
+}
+.dropdown-toggle::after {
+    display: none;
+
+}
+.form-rounded {
+    border-radius: 10px;
+}
+
+.hero-image {
+    z-index: -1;
+    background-image: url("../../assets/Flatdesign7.png");
+    height: 30rem;
+    background-position: center;
+    background-size: 50rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 75%;
+}
+.hero-image2 {
+    margin-top: -100px;
+    width: 75%;
+    z-index: -2;
+    background-image: url("../../assets/Flatdesign61.png");
+    background-position: center;
+    background-size: 50rem;
+    height: 38rem;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.card {
+    box-shadow: 0px 4px 8px 0px #BDBDBD
+}
+
+.profile-pic {
+    width: 100px !important;
+    height: 100px;
+    box-shadow: 0px 4px 8px 0px #BDBDBD
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    background: 0 0;
+    color: red !important;
+    border: solid red 2px !important;
+    border-radius: 50px;
+    margin-top: -200px !important;
+    margin-left: -650px;
+    padding: 200px 200px !important;
+    font: inherit;
+    position: absolute;
+    font-size: 50px !important
+}
+
+.owl-carousel .owl-nav button.owl-next{
+   background: 0 0;
+    color: red !important;
+    border: solid red 2px !important;
+    border-radius: 50px;
+    margin-top: -200px;
+    margin-left: 650px;
+    padding: 200px 200px !important;
+    font: inherit;
+    position: absolute;
+    font-size: 50px !important
+}
+
+.owl-carousel .owl-nav button.owl-next:hover,
+.owl-carousel .owl-nav button.owl-prev:hover {
+    color: red !important;
+    border: solid red 2px;
+    border-radius: 50px;
+    background-color: transparent !important
+}
+
+.owl-dots {
+    display: none
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+.item {
+    display: none
+}
+
+.next {
+    display: block !important;
+    position: relative;
+    transform: scale(0.8);
+    transition-duration: 0.3s;
+    opacity: 0.6
+}
+
+.prev {
+    display: block !important;
+    position: relative;
+    transform: scale(0.8);
+    transition-duration: 0.3s;
+    opacity: 0.6
+}
+
+.item.show {
+    display: block;
+    transition-duration: 0.4s
+}
+
+@media screen and (max-width: 999px) {
+
+    .next,
+    .prev {
+        transform: scale(1);
+        opacity: 1
+    }
+
+    .item {
+        display: block !important
+    }
+}
